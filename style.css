@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body {
   font-family: 'OCR A Std', monospace;
   background-color: #FFFAFF; 
@@ -12,7 +16,8 @@ header {
 h1 {
   color: #001F33;
   text-align: left;
-
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 p {
@@ -20,10 +25,48 @@ p {
   text-align: left
   font-size: 14px;
   background-color: #0A48C7;
+  padding: 5px;
+}
+
+main{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5%;
+  margin-left: 5%
 }
 
 img {
-  border-radius: 30%;
   max-height: 40%;
   max-width: 40%;
+  border: 3px solid #0A48C7;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+#hi {
+  color: #001F33;
+  text-align: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#bio {
+  color: #001F33;
+  text-align: left;
+}
+
+#avatar {
+  border-radius: 2%;
+  max-height: 40%;
+  max-width: 40%;
+  border: 2px solid #0A48C7;
+  margin-left: 2em;
+}
+
+.interests {
+  max-height: 20%;
+  max-width: 20%;
+  border: 1px solid #0A48C7
 }
