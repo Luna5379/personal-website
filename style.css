@@ -1,14 +1,29 @@
-/* STYLE SECTIONING TAGS */
 body {
- background-color: lightyellow; 
+  font-family: 'OCR A Std', monospace;
+  background-color: #FFFAFF; 
+  text-align: right;
+  color: #001F33;
 }
 
-/* STYLE TEXT */
+header {
+  background-color: #FDE74C;
+}
 
 h1 {
-  color: navy;
+  color: #001F33;
+  text-align: left;
+
 }
 
-/* STYLE IMAGES */
+p {
+  color:#FFFAFF;
+  text-align: left
+  font-size: 14px;
+  background-color: #0A48C7;
+}
 
-/* STYLE NAV BAR */
+img {
+  border-radius: 30%;
+  max-height: 40%;
+  max-width: 40%;
+}
