@@ -5,7 +5,6 @@
 body {
   font-family: 'OCR A Std', monospace;
   background-color: #FFFAFF; 
-  text-align: right;
   color: #001F33;
 }
 
@@ -38,7 +37,6 @@ main{
 img {
   max-height: 40%;
   max-width: 40%;
-  border: 3px solid #0A48C7;
   margin-bottom: 1em;
   margin-top: 1em;
   margin-right: 1em;
@@ -69,4 +67,54 @@ img {
   max-height: 20%;
   max-width: 20%;
   border: 1px solid #0A48C7
+}
+
+.projtype{
+  text-align: center;
+}
+
+.club{
+  max-height = 30%;
+  max-width = 30%
+  text-align: left;
+}
+
+.clubdesc{
+  text-align: right;
+  margin-bottom: 2em;
+}
+
+.comp{
+  max-height = 20%;
+  max-width = 20%;
+  text-align: left;
+}
+
+.compdesc{
+  text-align: right;
+  margin-bottom: 2em;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #FDE74C;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #001F33;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #0A48C7;
+  color: #FFFAFF;
 }
