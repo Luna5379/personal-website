@@ -6,13 +6,18 @@ body {
   font-family: 'OCR A Std', monospace;
   background-color: #FFFAFF; 
   color: #001F33;
+  text-align: right;
 }
 
 header {
+  font-family: 'Handjet', sans-serif;
+  font-weight: 600;
   background-color: #FDE74C;
 }
 
 h1 {
+  font-family: 'Handjet', sans-serif;
+  font-weight: 600;
   color: #001F33;
   text-align: left;
   padding-top: 1em;
@@ -61,6 +66,7 @@ img {
   max-width: 40%;
   border: 2px solid #0A48C7;
   margin-left: 2em;
+  text-align: right;
 }
 
 .interests {
